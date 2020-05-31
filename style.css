@@ -6,4 +6,16 @@
     
 }
 
-.
+#element {
+    transform-origin: 50%;
+    animation-name: pug;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pug {
+    50% {
+        transform: translateX(30%);
+    }
+    
+}
